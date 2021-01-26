@@ -9,5 +9,5 @@ btn.addEventListener("click", function () {
 });
 
 function getRandom() {
-  return Math.floor(Math.random() * colors.length);
+  return Math.trunc(Math.random() * colors.length);
 }
